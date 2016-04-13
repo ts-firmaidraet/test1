@@ -13,7 +13,7 @@ namespace test1.Controllers
         public ActionResult Index()
         {
             MyFirstClass cls = new MyFirstClass();
-            ViewBag.Stringresult = cls.getString();
+            ViewBag.Stringresult = cls.getString() + "test";
             return View();
         }
 
